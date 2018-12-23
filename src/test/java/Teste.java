@@ -47,9 +47,9 @@ public class Teste {
             inte.run();
         }
         catch(Exception e){
-            assertFalse(false);
+            assertFalse("Falhou",true);
         }
-        assertTrue(true);
+        assertTrue("Tudo bem",true);
     }
 
 }
